@@ -1,0 +1,53 @@
+<!-- 조합 결과 다운로드 기능 전 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>옷 조합 페이지</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <!-- 왼쪽 섹션 -->
+  <div class="left-section">
+    <h1>👗 옷 조합 페이지</h1>
+
+    <!-- 탭 -->
+    <div class="tab-container">
+      <div class="tab active" data-tab="topTab">상의 선택</div>
+      <div class="tab" data-tab="bottomTab">하의 선택</div>
+    </div>
+
+    <!-- 상의 업로드 -->
+    <div class="content active" id="topTab">
+      <h2>👕 상의 업로드</h2>
+      <div class="upload-grid" id="topGrid">
+        <!-- 상의 업로드 박스 생성 -->
+      </div>
+    </div>
+
+    <!-- 하의 업로드 -->
+    <div class="content" id="bottomTab">
+      <h2>👖 하의 업로드</h2>
+      <div class="upload-grid" id="bottomGrid">
+        <!-- 하의 업로드 박스 생성 -->
+      </div>
+    </div>
+
+    <!-- 조합하기 버튼 -->
+    <button id="combineButton">👕 + 👖 조합하기</button>
+  </div>
+
+  <!-- 오른쪽 섹션 -->
+  <div class="right-section">
+    <h2>✨ 조합 결과 ✨</h2>
+    <div class="combined" id="combinedResult">
+      <p>상의와 하의를 업로드하고 조합 버튼을 눌러보세요!</p>
+    </div>
+  </div>
+
+  
+</body>
+</html>
