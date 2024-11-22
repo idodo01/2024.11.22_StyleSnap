@@ -131,15 +131,19 @@
       background-color: #ffa000;
       transform: scale(1.05);
     }
-    .combined {
-      margin-top: 20px;
-      text-align: center;
-    }
-    .combined img {
-      margin: 10px 0;
-      max-width: 100%;
-      max-height: 200px;
-    }
+   
+
+    /* combined 컨테이너 스타일 수정 */
+  .combined {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* 상하 배치 */
+    align-items: center;
+  }
+  .combined img {
+    width: 300px;  
+  }
 
     /* 선택된 이미지 테두리 핑크색 */
     .selected {
